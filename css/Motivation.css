@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+html,
+body {
+    height: 90%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    background-color: aquamarine;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    background-size: cover;
+}
+
+h1 {
+    user-select: none;
+    font-family: 'Quicksand';
+}
+
+#bg {
+    background-color: aquamarine;
+}
+
+#btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: fixed; 
+    top: 3%;
+    left: 2%;
+    font-family: "Quicksand";
+}
+
+#btn:hover {
+    background-color: #3c8d3f;
+}

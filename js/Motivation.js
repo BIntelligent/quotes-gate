@@ -1,7 +1,7 @@
 let data;
 
 (async () => {
-    await fetch(`https://raw.githubusercontent.com/KarimX32/Test/main/quotes.json`)
+    await fetch(`https://raw.githubusercontent.com/KarimX32/quotes-gate/main/configs/quotes.json`)
     .then(x => x.json())
     .then(x => data = x)
 })()
